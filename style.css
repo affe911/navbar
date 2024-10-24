@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header {
+    background-color: #cb333b;
+    width: 100%;
+    height: 100px;
+  }
+
+  nav img {
+    height: 46px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0px;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 700;
+    
+    }
+    rubrik {
+      text-align: left;
+    }
+    
+  li {
+    margin: 20px;
+    font-family: Arial;
+  }
+  li a {
+    color: white;
+    text-decoration: none; 
+   }
+   
+   li a:hover {
+     text-decoration: underline;
+   }
